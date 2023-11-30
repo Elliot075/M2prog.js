@@ -1,0 +1,11 @@
+<htlm>
+    <head>
+        <script type="module" defer src="app.js"></script>
+    </head>
+    <body>
+        <canvas id="canvasid" width="600" height="1000"></canvas>
+
+        <canvas id="canvasid" width="400" height="1000"></canvas>
+        
+    </body>
+</htlm>
