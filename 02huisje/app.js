@@ -6,7 +6,7 @@ class App
         let canvas=document.getElementById("canvasId");
         let g = canvas.getContext("2d");
         g.beginPath()
-        g.fillStyle = "grey";
+        g.fillStyle = "red";
         g.moveTo(600,400);
         g.lineTo(800,300);
         g.lineTo(700,200);
@@ -23,11 +23,9 @@ class App
         g.stroke();
         g.fill()
 
-        g.beginPath()
-
 
         g.beginPath()
-        g.fillStyle = "black";
+        g.fillStyle = "blue";
         g.moveTo(600,400);
         g.lineTo(600,600);
         g.lineTo(200,500);
@@ -37,7 +35,7 @@ class App
         g.fill()
 
         g.beginPath()
-        g.fillStyle = "black";
+        g.fillStyle = "blue";
         g.moveTo(600,400);
         g.lineTo(800,300);
         g.lineTo(800,500);
@@ -45,17 +43,6 @@ class App
         g.closePath();
         g.stroke();
         g.fill()
-
-        g.beginPath()
-        g.fillStyle = "white";
-        g.moveTo(650,450);
-        g.lineTo(800,350);
-        g.lineTo(800,450);
-        g.lineTo(650,550);
-        g.closePath();
-        g.stroke();
-        g.fill()
-        ctx.fillRect(20, 20, 150, 100);
     }
 }
 
