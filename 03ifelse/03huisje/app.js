@@ -20,7 +20,7 @@ class App
         }
 
         g.beginPath()
-        g.fillStyle = "black"
+        g.fillStyle = "darkbrown"
         g.moveTo(600,400);
         g.lineTo(800,300);
         g.lineTo(700,200);
