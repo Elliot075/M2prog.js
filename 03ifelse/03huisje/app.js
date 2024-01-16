@@ -16,7 +16,7 @@ class App
         }
         else if(random > 0.5)
         {
-            kleur = "darkblue"
+            kleur = "black"
         }
 
         g.beginPath()
